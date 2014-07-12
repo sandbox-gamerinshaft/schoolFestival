@@ -1,0 +1,70 @@
+body, html{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: black;
+}
+.bg-img{
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
+  max-height: auto;
+}
+.bg-img > img{
+  width: 100%;
+  height: auto;
+}
+div[class *="button"]{
+  height: 103px;
+  width: 103px;
+  border-radius: 80px;
+  background-color: white;
+  border: solid 5px red;
+  position: absolute;
+}
+
+.button1{
+  top: 85px;
+  left: 213px;
+}
+
+.button2{
+  top: 220px;
+  left: 240px;
+}
+
+.button3{
+  top: 334px;
+  left: 316px;
+}
+
+.button4{
+  top: 410px;
+  left: 430px;
+}
+
+.button5{
+  top: 437px;
+  left: 565px;
+}
+
+.button6{
+  top: 410px;
+  right: 430px;
+}
+
+.button7{
+  top: 334px;
+  right: 316px;
+}
+
+.button8{
+  top: 220px;
+  right: 240px;
+}
+
+.button9{
+  top: 85px;
+  right: 213px;
+}
