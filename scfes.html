@@ -15,20 +15,30 @@
 <div id="lifegage" class="lifegage">
   <div id="lifegage-life" class="lifegage-life"></div>
 </div>
-<div class="bg-img">
-  <img src="scfes.jpg"></img>
+<div class="wrapper">
+  <div class="bg-img">
+    <img src="scfes.jpg"></img>
+  </div>
+  <div id="button1" class="button1"></div>
+  <div id="button2" class="button2"></div>
+  <div id="button3" class="button3"></div>
+  <div id="button4" class="button4"></div>
+  <div id="button5" class="button5"></div>
+  <div id="button6" class="button6"></div>
+  <div id="button7" class="button7"></div>
+  <div id="button8" class="button8"></div>
+  <div id="button9" class="button9"></div>
 </div>
-<div id="button1" class="button1"></div>
-<div id="button2" class="button2"></div>
-<div id="button3" class="button3"></div>
-<div id="button4" class="button4"></div>
-<div id="button5" class="button5"></div>
-<div id="button6" class="button6"></div>
-<div id="button7" class="button7"></div>
-<div id="button8" class="button8"></div>
-<div id="button9" class="button9"></div>
 
 <script>
+var test = new Lovelive();
+$(window).on('keydown', function(e){
+  $('#button1').addClass('bg-red');
+});
+
+$(window).on('keyup', function(e){
+  $('#button1').removeClass('bg-red');
+})
 </script>
 
 </body>
